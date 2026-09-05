@@ -38,6 +38,33 @@ Dates reflect the public project record and may not expose the exact timing of e
 
 ## 2026-09-05
 
+### Owner Contribution
+
+- Jason directed a comparative architecture study of **Bobiverse, Expeditionary Force, Foundation, Star Wars, Star Trek, and Stargate** to identify both reusable franchise strengths and recurring audience-identified weaknesses that Freeman’s Reach should address deliberately.
+- Jason defined the long-term requirement that future hired writers should be able to receive a bounded civilization, era, location, or story sandbox and work from documented universe architecture instead of depending on repeated oral lore transfer.
+- Jason required a stronger character and lineage architecture before manuscript production becomes the main effort, so future stories can draw from a healthy ensemble rather than repeatedly depending on a small core cast.
+- Jason directed creation of a private, dated creator-contribution record capturing his substantive ideas, corrections, research directions, decisions, and reasoning in addition to the existing formal decision and change logs.
+- Jason required both private and public methodology records explaining the project’s human-led, AI-assisted workflow and requested that sanitized public development records make his contribution and AI assistance distinguishable where useful.
+
+### AI Assistance
+
+- AI research support began comparing the selected franchises across technology progression, institutions, scale, logistics, character architecture, continuity, reusable story engines, writer onboarding, and transmedia coordination.
+- AI assistance converted early comparative findings into structured anti-patterns and design requirements rather than copying franchise-specific content.
+- AI assistance created working private architecture/provenance artifacts and a writer-facing integration framework under the project’s existing configuration-control rules.
+
+### Evidence
+
+- Official franchise, publisher, creator, and production sources are being used to establish intended franchise structures and coordination practices.
+- Community discussions are being treated as audience-feedback signals—not factual authority—to identify recurring complaints such as continuity drift, weak scale discipline, forgotten technologies, repetitive story loops, legacy-character overdependence, and expensive writer onboarding.
+- Transmedia and production-bible practices are being reviewed for lessons applicable to future novels, games, video, television/film, and other media.
+
+### Result
+
+- Added `docs/methodology/HUMAN_AI_DEVELOPMENT_METHOD.md`, a sanitized public description of the project’s human-led, AI-assisted development and attribution method.
+- Began a formal franchise-architecture benchmark and gap-analysis workstream.
+- Began a writer-facing **Universe Architecture Matrix** concept that will integrate eras, civilizations/polities, places, characters, organizations, technologies, story permissions, and continuity boundaries while remaining subordinate to private authoritative canon records.
+- Established the public attribution pattern **Owner Contribution / AI Assistance / Evidence / Result** for meaningful development milestones where that distinction improves transparency.
+
 ### Changed
 
 - Clarified the project architecture so the **Freeman’s Reach** series/universe title is no longer treated as an automatic in-universe civilization name.
