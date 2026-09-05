@@ -36,6 +36,32 @@ Dates reflect the public project record and may not expose the exact timing of e
 
 ---
 
+## 2026-09-05
+
+### Changed
+
+- Clarified the project architecture so the **Freeman’s Reach** series/universe title is no longer treated as an automatic in-universe civilization name.
+- Added a dedicated nomenclature and lineage workstream to separately control settlement, city, planetary, political, population, and legacy terminology.
+- Expanded the universe-readiness gate so Book 1 development waits for a healthier baseline across history, naming, characters, civilizations/polities, celestial geography, and technology architecture.
+- Updated `ROADMAP.md` to reflect the current dependency-driven development sequence rather than an earlier RFG-first roadmap.
+
+### Research
+
+- Verified that real-world astronomical discovery chronology must constrain in-universe naming and historical knowledge rather than being retroactively imposed on an earlier fictional population.
+- Opened a publishing/provenance research workstream focused on human authorship, AI-assisted development, disclosure practices, version history, and publication integrity.
+
+### Systems
+
+- Expanded the internal system-domain roadmap beyond the initial technology set to ensure future development also covers medicine, defense/security, resource extraction, agriculture, sensing/navigation, logistics, and knowledge preservation.
+- Continued to treat major capabilities as interdependent systems requiring requirements, interfaces, constraints, failure modes, and verification rather than as isolated narrative devices.
+
+### Repository
+
+- The public repository remains a sanitized, non-authoritative publication layer.
+- Public transparency will increasingly document **how** the universe is engineered, researched, reviewed, and changed while private canon and source records remain under controlled project authority.
+
+---
+
 ## 2026-09-04
 
 ### Added
