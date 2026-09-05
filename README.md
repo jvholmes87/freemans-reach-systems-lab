@@ -1,417 +1,486 @@
 # Freeman’s Reach Systems Lab
 
-> A public systems-engineering case study exploring the design of a technically credible hard-science-fiction civilization.
+> A public systems-engineering case study for building a technically credible, reusable hard-science-fiction universe.
 
 ## Project Overview
 
-**Freeman’s Reach: Systems Universe** is an independent hard-science-fiction project developed using systems-engineering methods.
+**Freeman’s Reach: Systems Universe** is an independent hard-science-fiction universe-development project created by **Jason V. Holmes** and developed using systems-engineering methods.
 
-The project treats a fictional civilization as an integrated **system of systems (SoS)**. Technology, infrastructure, government, industry, transportation, energy, manufacturing, habitats, organizations, and narrative events must operate within defined requirements, interfaces, constraints, risks, dependencies, and failure modes.
+This is not being built as a single novel with a setting attached afterward. The project treats a fictional universe as an integrated **system of systems (SoS)** whose technology, civilizations, infrastructure, institutions, transportation, energy, manufacturing, medicine, logistics, communications, characters, chronology, and narrative events must remain mutually consistent.
 
-This repository serves as the public publication layer for selected, sanitized engineering artifacts produced during development.
+The long-term objective is to create a controlled universe architecture that can support:
 
-It shows not only **what is built**, but also **how and why the architecture changes over time**.
+- Novels and short fiction
+- Games and interactive media
+- Film, television, animation, and video concepts
+- Technical companion material
+- Public systems-engineering artifacts
+- Academic and professional case studies
+- Future stories written by additional authors inside defined canon sandboxes
 
-## Project Objectives
+The public repository is a **sanitized development and publication layer**. The authoritative project, canon, research, decision, and configuration records remain in a private Google Drive repository.
 
-The project is intended to:
+---
 
-* Build a coherent and technically grounded science-fiction universe.
-* Apply systems-engineering methods to civilization-scale design.
-* Demonstrate requirements development and traceability.
-* Evaluate technical concepts through structured trade studies.
-* Identify system dependencies, interfaces, risks, and failure modes.
-* Connect technical architecture to credible narrative consequences.
-* Apply research, configuration management, and decision control to long-running fictional-system development.
-* Preserve an auditable record of architecture evolution.
-* Explore Model-Based Systems Engineering (MBSE) concepts for fictional and civilization-scale systems.
-* Produce a reusable professional and academic portfolio of systems-engineering work.
+## Project Identity
+
+**Freeman’s Reach is the series / universe title. It is not the formal in-universe name of the civilization, polity, founding city, planet, or people.**
+
+The title has an approved historical rationale within the setting. The foundational premise follows a formerly enslaved Black American scientist whose scientific and technological ambition ultimately becomes literal interstellar reach when an experimental event displaces his community across space. The exact founder identity, chronology, settlement names, political names, planetary endonym, and related historical details remain under controlled development.
+
+The physical destination is the real exoplanet modern Earth astronomy identifies as **Proxima Centauri b**, but that modern astronomical designation is treated as an external reference rather than automatically becoming the transported population’s in-universe planetary name.
+
+This distinction matters because the project is deliberately separating:
+
+- Series / universe branding
+- Historical naming and legacy
+- Settlement and city names
+- Planetary endonyms
+- Civilization and polity names
+- Population self-names and demonyms
+- Organization, fleet, and institutional naming
+
+The purpose is to prevent external labels, later astronomical terminology, and marketing names from silently becoming diegetic canon.
+
+---
+
+## Why Build the Universe Before the Manuscript?
+
+The project intentionally invests heavily in foundational architecture before Book 1 becomes the primary development effort.
+
+The assumption is simple: **upfront architecture costs time now but reduces continuity problems, ad hoc worldbuilding, and rework later.**
+
+A sufficiently mature universe should make later creative work faster because writers can focus on:
+
+- Plot
+- Dialogue
+- Character decisions
+- Conflict
+- Mystery
+- Strategic consequences
+
+without having to invent the civilization’s government, technology rules, logistics, history, medicine, communications, or economic structure in the middle of a manuscript.
+
+Book 1 development is therefore gated behind a healthier baseline across history, nomenclature, characters, civilizations, celestial geography, technology architecture, and continuity controls.
+
+---
 
 ## Systems-Engineering Approach
 
 Development follows a structured lifecycle:
 
-1. Define mission objectives and stakeholder needs.
+1. Define the mission, problem, stakeholder need, or universe requirement.
 2. Establish system boundaries and operating environments.
-3. Develop traceable requirements.
-4. Create functional and physical architectures.
-5. Define interfaces and dependencies.
-6. Evaluate alternatives through trade studies.
-7. Identify risks, hazards, and failure modes.
-8. Establish verification and validation methods.
-9. Record research findings, architecture decisions, and executed changes in controlled registers.
-10. Maintain traceable project baselines through canon, decision, change, research, and configuration control.
+3. Research relevant real science, engineering, history, institutions, and operational analogues.
+4. Separate established evidence from engineering extrapolation and fictional invention.
+5. Develop traceable requirements.
+6. Create functional and physical architectures.
+7. Define interfaces and dependencies.
+8. Evaluate alternatives through trade studies.
+9. Identify hazards, risks, failure modes, maintenance needs, and logistics burdens.
+10. Establish verification and validation methods.
+11. Record research findings, decisions, changes, and unresolved questions in controlled registers.
+12. Promote fictional facts through a controlled canon workflow rather than allowing drafts to silently create canon.
 
-## Engineering Principles
+### Engineering Principles
 
-* **Systems first, story second**
-* **Requirements before solutions**
-* **Traceability before complexity**
-* **Constraints before capability**
-* **Interfaces before optimization**
-* **Failure modes before confidence**
-* **Evidence before technical claims**
-* **Controlled decisions before canon changes**
+- **Systems first, story second**
+- **Requirements before solutions**
+- **Traceability before complexity**
+- **Constraints before capability**
+- **Interfaces before optimization**
+- **Failure modes before confidence**
+- **Evidence before technical claims**
+- **Controlled decisions before canon changes**
+- **Technology consequences must propagate through the universe**
+- **A useful setting should support stories beyond the primary cast**
 
-No technology is treated as unlimited, perfectly reliable, or free of consequences.
+No major technology is treated as unlimited, perfectly reliable, consequence-free, or available merely because a plot needs it.
 
-Major fictional systems must have defined:
+Major systems are expected to define:
 
-* Purpose
-* Requirements
-* Inputs
-* Processes
-* Outputs
-* Interfaces
-* Dependencies
-* Constraints
-* Operating envelopes
-* Risks
-* Failure modes
-* Maintenance requirements
-* Development histories
+- Purpose
+- Requirements
+- Inputs
+- Processes
+- Outputs
+- Interfaces
+- Dependencies
+- Constraints
+- Operating envelopes
+- Risks
+- Failure modes
+- Maintenance and logistics requirements
+- Development history
+- Verification and validation approach
+- Canon status
 
-Where speculative physics is required, the project isolates the minimum fictional departure while grounding the surrounding engineering behavior in established science and engineering.
+Where speculative physics is required, the project attempts to isolate the minimum fictional departure while grounding the surrounding engineering behavior in established science and engineering.
+
+---
+
+## Universe Architecture Matrix & Writer Sandbox
+
+A central development objective is a controlled **Universe Architecture Matrix & Writer Sandbox**.
+
+The Matrix is intended to become the writer-facing integration layer for the universe. It is **not** a second canon source. It points writers, designers, and future collaborators back to authoritative records while summarizing what is available inside a particular creative assignment.
+
+Current architecture domains include:
+
+- Universe hierarchy
+- Eras and chronology
+- Celestial geography
+- Civilizations and polities
+- Settlements and facilities
+- Organizations and factions
+- Characters and lineages
+- Technology and systems
+- Story and media registry
+- Continuity rules
+- Writer permissions and protected canon
+
+The long-term goal is that a future author could receive a bounded assignment such as:
+
+> Write a story inside Civilization X during Era Y in System Z. These technologies exist. These institutions operate here. These characters are available. These events are fixed. These unresolved questions are reserved. You may create new local characters within these limits, but you may not invent a new strategic technology or overwrite protected canon.
+
+That writer should be able to understand the sandbox without depending on months of oral lore transfer.
+
+This architecture is being developed specifically so the universe can eventually support multiple writers, multiple media formats, and stories that do not require the primary cast.
+
+---
+
+## Character & Lineage Architecture
+
+Character development is also treated as controlled architecture rather than a collection of isolated biographies.
+
+The project intends to track elements such as:
+
+- Era
+- Civilization / polity
+- Profession and system role
+- Competencies
+- Affiliations
+- Family lineage
+- Mentors and successors
+- Institutional relationships
+- Constraints
+- Narrative function
+- Protected / available status
+- Cross-media use
+- Continuity dependencies
+
+The target is a healthy ensemble containing founding-generation figures, institutional successors, primary characters, supporting characters, regional characters, faction-specific characters, and future writer-created characters.
+
+A mature Freeman’s Reach story should not automatically require **Elijah Carter** or another legacy figure simply to feel legitimate inside the universe.
+
+---
+
+## Technology & Civilization Coverage
+
+The architecture extends far beyond the project’s two best-known speculative technologies.
+
+Current and planned system domains include:
+
+- Resonant Field Generator (RFG)
+- Mass Anchor Relocation (MAR)
+- Energy generation, storage, distribution, pulse power, reserves, and heat rejection
+- Propulsion and spacecraft mobility
+- Computing and artificial intelligence
+- Communications
+- Medical and biomedical systems
+- Defense, security, and weapons
+- Resource extraction and refining
+- Agriculture and food systems
+- Sensing, navigation, timing, and metrology
+- Transportation and logistics
+- Habitats and life support
+- Manufacturing and industrial base
+- Education, training, and knowledge preservation
+- Civil infrastructure
+- Emergency management
+- Economics
+- Governance and institutional continuity
+
+Definition-level RFG and MAR architectures have reached internal approved baselines. Detailed performance values, deeper speculative physics, and other unreleased technical material remain controlled privately.
+
+The broader technology-domain roadmap is intended to prevent later stories from introducing major capabilities without accounting for infrastructure, era, industrial capacity, dependencies, maintenance, risks, and downstream consequences.
+
+---
+
+## Comparative Franchise Benchmarking
+
+The project maintains a structured benchmark and gap-analysis workstream using major science-fiction franchises and series as comparators.
+
+Current benchmark subjects include:
+
+- **Bobiverse**
+- **Expeditionary Force**
+- **Foundation**
+- **Star Wars**
+- **Star Trek**
+- **Stargate**
+
+The purpose is not imitation.
+
+Each comparator is evaluated against common architecture dimensions such as:
+
+- Technology progression
+- Institutional structure
+- Civilization scale
+- Logistics
+- Character architecture
+- Continuity management
+- Reusable story engines
+- Cross-era storytelling
+- Transmedia scalability
+- Audience feedback and recurring continuity or worldbuilding criticisms
+
+Useful lessons are translated into **design requirements or anti-patterns** for Freeman’s Reach.
+
+For example, the project explicitly wants to avoid:
+
+- Scale claims unsupported by demographics, industry, or logistics
+- Technologies whose consequences are ignored after introduction
+- Competent characters forgetting established capabilities solely to create a plot problem
+- Excessive dependence on a tiny legacy cast
+- Uncontrolled continuity fragmentation
+- Predictive or strategic models that function as unexplained plot magic
+- Worldbuilding that requires new writers to rely on undocumented oral lore
+
+---
 
 ## Project Codex
 
 Freeman’s Reach uses recurring identifiers, technical abbreviations, and systems-engineering terminology.
 
-The project does **not** assume that readers already understand this shorthand.
-
-Abbreviations should normally be written out on first public use, and this codex references terms that may appear repeatedly in public artifacts.
-
 ### Project Record IDs
 
-| Prefix  | Meaning                     | Purpose                                                                                             |
-| ------- | --------------------------- | --------------------------------------------------------------------------------------------------- |
-| **CAN** | Canon Register item         | Approved or proposed universe fact controlled through the canon workflow.                           |
-| **DEC** | Decision Log item           | Logged project decision, approval, governance action, change authorization, or reversal.            |
-| **CHG** | Change Log item             | An executed change to a project artifact or controlled record.                                      |
-| **TSK** | Development Work Queue item | A development task or deliverable that creates or revises an artifact.                              |
-| **Q**   | Open Question               | An unresolved question that remains non-canon until resolved through the appropriate process.       |
-| **SYS** | Systems Registry item       | A major technology, infrastructure, organizational, or civilization system.                         |
-| **ENT** | Entity Registry item        | A tracked character, faction, place, ship, mission, event, or similar entity.                       |
-| **RES** | Research Register item      | A research question and its synthesized findings.                                                   |
-| **LIB** | Research Library item       | A source, paper, book, technical document, or other reference held in the project research library. |
-| **RG**  | Research Gate               | A feasibility or evidence checkpoint within a RES research effort. Example: `RG-01B`.               |
+| Prefix | Meaning | Purpose |
+| --- | --- | --- |
+| **CAN** | Canon Register item | Approved or proposed universe fact controlled through the canon workflow |
+| **DEC** | Decision Log item | Logged approval, governance action, architecture decision, or change authorization |
+| **CHG** | Change Log item | Executed change to a project artifact or controlled record |
+| **TSK** | Development Work Queue item | A development task or controlled deliverable |
+| **Q** | Open Question | An unresolved question that remains outside canon until resolved |
+| **SYS** | Systems Registry item | A major technology, infrastructure, organizational, or civilization system |
+| **ENT** | Entity Registry item | A tracked character, faction, place, ship, mission, event, or similar entity |
+| **RES** | Research Register item | A research question and synthesized findings |
+| **LIB** | Research Library item | A source or reference held in the project research library |
+| **RG** | Research Gate | A feasibility or evidence checkpoint inside a research effort |
 
-These identifiers provide traceability. Their appearance in a public artifact does not automatically make the associated private record public.
+### Technical Terms
 
-### Technical and Project Abbreviations
+| Term | Meaning | Public Project Use |
+| --- | --- | --- |
+| **RFG** | Resonant Field Generator | Core enabling speculative field-generation technology |
+| **MAR** | Mass Anchor Relocation | Advanced RFG-derived relocation capability |
+| **FRS** | Established vessel prefix | Used in names such as **FRS Lattimore**; the literal expansion remains controlled and has not yet been publicly established |
+| **AI** | Artificial Intelligence | Research, analysis, review, drafting, editing, documentation, and cross-review support |
+| **MBSE** | Model-Based Systems Engineering | Systems-engineering methodology relevant to architecture development and future academic work |
+| **SoS** | System of Systems | An architecture of interacting systems whose interfaces and dependencies must be managed |
+| **V&V** | Verification and Validation | Verification checks requirements satisfaction; validation checks fitness for intended need or use |
 
-| Term     | Meaning                         | Project Use                                                                                                                               |
-| -------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **RFG**  | Resonant Field Generator        | Core enabling field-generation technology within Freeman’s Reach.                                                                         |
-| **MAR**  | Mass Anchor Relocation          | Advanced relocation capability associated with RFG architecture.                                                                          |
-| **FRS**  | Freeman’s Reach vessel prefix   | Used for Freeman’s Reach spacecraft such as **FRS Lattimore**. The literal expansion of the prefix has not yet been publicly established. |
-| **AI**   | Artificial Intelligence         | Used for research organization, technical review, alternative analysis, editing, documentation, and cross-review.                         |
-| **MBSE** | Model-Based Systems Engineering | Systems-engineering methodology relevant to architecture development and future academic work.                                            |
-| **SoS**  | System of Systems               | An architecture consisting of interacting systems whose interfaces, dependencies, and emergent behavior must be managed.                  |
-| **V&V**  | Verification and Validation     | Verification evaluates whether requirements are satisfied; validation evaluates whether the system fulfills its intended need or use.     |
+---
 
-### Professional and Academic Abbreviations
+## Human-Led, AI-Assisted Development
 
-| Term      | Meaning                              |
-| --------- | ------------------------------------ |
-| **CCAF**  | Community College of the Air Force   |
-| **AAS**   | Associate of Applied Science         |
-| **BS**    | Bachelor of Science                  |
-| **MS**    | Master of Science                    |
-| **USAF**  | United States Air Force              |
-| **UMGC**  | University of Maryland Global Campus |
-| **ORCID** | Open Researcher and Contributor ID   |
+Artificial intelligence is used openly as a bootstrap support capability.
 
-The codex will expand as we introduce recurring terminology.
+AI systems may assist with:
+
+- Research organization
+- Literature and source comparison
+- Alternative analysis
+- Technical review
+- Continuity checking
+- Requirements development
+- Architecture analysis
+- Trade studies
+- Working drafts
+- Editing
+- Documentation
+- Cross-review of assumptions and proposed systems
+
+**Jason V. Holmes remains the project creator, owner, and final canon authority.**
+
+AI output is not automatically accepted as:
+
+- Fact
+- Research evidence
+- Approved architecture
+- Technical truth
+- Fictional canon
+- Final manuscript expression
+
+The project now uses a formal provenance method to distinguish, where meaningful:
+
+- **Owner Contribution** — what Jason originated, required, corrected, selected, rejected, or approved
+- **AI Assistance** — what AI researched, analyzed, drafted, checked, or organized
+- **Evidence** — what outside research, historical material, engineering sources, or audience feedback influenced the work
+- **Result** — what architecture, methodology, specification, or project decision changed
+
+A private Creator Contribution & Decision Journal supplements the project’s canon, decision, change, research, source, Drive-version, Git, and future manuscript-revision records.
+
+The objective is **transparent, defensible human-led development and authorship provenance**, not an attempt to defeat AI-detection systems.
+
+See: [`docs/methodology/HUMAN_AI_DEVELOPMENT_METHOD.md`](docs/methodology/HUMAN_AI_DEVELOPMENT_METHOD.md)
+
+---
 
 ## Configuration & Research Control
 
-Project development uses separate control records for:
+The private project maintains separate controlled records for:
 
-* Approved and proposed canon
-* Architecture and governance decisions
-* Executed changes
-* Development work
-* Open questions
-* Major systems
-* Entities such as characters, factions, places, ships, missions, and events
-* Research questions and synthesized findings
-* Research-library source holdings
+- Approved and proposed canon
+- Architecture and governance decisions
+- Executed changes
+- Development work
+- Open questions
+- Major systems
+- Characters, factions, places, ships, missions, settlements, and events
+- Research questions and synthesized findings
+- Research-library source holdings
+- Writer-facing architecture and continuity
+- Human/AI development provenance
 
 These records serve different purposes.
 
-A **Research Library** source provides evidence or background information.
+A source in the Research Library is evidence or background material. It does not establish fictional canon.
 
-A **Research Register** entry records the question being investigated and the findings synthesized from relevant sources.
+A Research Register item records the question being investigated and the project’s synthesized findings.
 
-Research sources do not establish fictional canon on their own.
+A proposed technical concept does not become canon simply because it appears in a working document, diagram, AI response, public issue, or GitHub commit.
 
-Evidence that materially influences canon must first pass through the controlled research and approval process.
-
-Likewise, proposed technical concepts do not become canon merely because they appear in:
-
-* A working document
-* A diagram
-* A research note
-* An AI response
-* A GitHub commit
-* A public development update
-
-Public GitHub artifacts are released only after review and sanitization.
+---
 
 ## Public Development Transparency
 
-The public repository is intended to show meaningful project activity rather than serve only as storage for finished artifacts.
+This repository is intended to show meaningful project evolution rather than act only as storage for finished artifacts.
 
-Development transparency may include:
+Public transparency includes:
 
-### `CHANGELOG.md`
+- [`CHANGELOG.md`](CHANGELOG.md) — sanitized event-driven development history
+- [`ROADMAP.md`](ROADMAP.md) — dependency-aware Now / Next / Later priorities
+- `docs/updates/YYYY/YYYY-MM.md` — future monthly development reports
+- `docs/methodology/` — public methods and governance explanations
 
-A sanitized chronological record of significant public-facing changes.
+Public development records may increasingly use the pattern:
 
-Entries may explain:
+**Owner Contribution → AI Assistance → Evidence → Result**
 
-* What changed
-* Why it changed
-* What research or engineering constraint triggered the change
-* Which public artifacts are affected
-* Whether the change altered architecture, methodology, research direction, or repository structure
+This makes the development process legible without exposing unpublished canon, spoilers, private research issues, protected technical details, or private Google Drive content.
 
-The public Change Log is **not** a complete copy of the private internal Change Log.
-
-Private records may contain:
-
-* Unpublished canon
-* Story spoilers
-* Proprietary technical details
-* Internal research issues
-* AI coordination material
-* Working assumptions
-* Rejected concepts
-* Information not cleared for public release
-
-Only appropriate sanitized changes are published.
-
-### `ROADMAP.md`
-
-A public development roadmap organized around:
-
-**Now** — work currently underway
-**Next** — work expected after current dependencies are completed
-**Later** — longer-term development objectives
-
-The roadmap represents development intent rather than a binding publication schedule.
-
-### Monthly Development Updates
-
-The repository may include development reports such as:
-
-`docs/updates/2026/2026-09.md`
-
-Monthly reports may summarize:
-
-* Work completed
-* Research performed
-* Architecture changes
-* Major decisions
-* New systems or interfaces investigated
-* Public artifacts released
-* Repository-structure changes
-* Lessons learned
-* Research gates completed
-* Current risks or unresolved technical questions that can be discussed publicly
-* Priorities for the next development period
-
-### Event-Driven Updates
-
-The project does not require artificial daily activity.
-
-A development entry should exist because something meaningful happened—not merely to create the appearance of activity.
-
-This allows readers to follow the evolution of the project while preserving a useful engineering record.
+---
 
 ## Public Repository Scope
 
-This repository may include:
+This repository may eventually include:
 
-* Systems-engineering methodology
-* Sanitized requirements examples
-* System context diagrams
-* Functional and physical architectures
-* Interface-control examples
-* Technical trade studies
-* Risk and reliability analyses
-* Failure-mode assessments
-* Verification and validation strategies
-* Architecture decision records
-* Research bibliographies
-* Milestone and development reports
-* Sanitized configuration-management examples
-* Research-methodology examples
-* Selected academic or professional case-study material
-* Public development logs and roadmaps
+- Systems-engineering methodology
+- Sanitized requirements examples
+- System context diagrams
+- Functional and physical architectures
+- Interface-control examples
+- Technology assessment frameworks
+- Trade studies
+- Risk and reliability analyses
+- Failure-mode assessments
+- Verification and validation strategies
+- Architecture decision examples
+- Research bibliographies
+- Milestone and monthly development reports
+- Sanitized configuration-management examples
+- Universe-architecture methodology
+- Writer-sandbox methodology
+- Academic or professional case studies
 
-This repository will not include:
+This repository will not automatically include:
 
-* Complete manuscripts
-* Unpublished chapters
-* Major plot revelations
-* Complete proprietary technology specifications
-* Unapproved or unresolved canon presented as settled fact
-* Private research materials
-* Internal AI conversations or handoffs
-* Private Google Drive links
-* Personally identifying or client-sensitive information
+- Complete manuscripts
+- Unpublished chapters
+- Major plot revelations
+- Complete private technology specifications
+- Unapproved canon presented as settled fact
+- Private research files
+- Internal AI conversations or handoffs
+- Private Google Drive links
+- Protected creator-contribution records
+- Personally identifying or client-sensitive information
+
+---
 
 ## Canon and Source Authority
 
-This public repository is **not** the authoritative canon repository for Freeman’s Reach.
+The public GitHub repository is **not** the authoritative canon repository.
 
-Authoritative project records, canon, research findings, decisions, and configuration-control records are maintained in a private Google Drive project repository.
+Authoritative canon, research findings, decisions, configuration controls, approved specifications, and open questions are maintained privately in Google Drive.
 
-This GitHub repository is a sanitized publication layer.
+A public issue, comment, pull request, fork, discussion, commit, changelog entry, roadmap item, fan interpretation, or outside contribution does not establish project canon.
 
-Material published here consists only of selected public artifacts and does not supersede the controlled private project records.
+Canon changes require controlled review, explicit owner approval, and synchronization into the private project records.
 
-A public:
+---
 
-* Issue
-* Comment
-* Pull request
-* Fork
-* Discussion
-* Commit
-* Changelog entry
-* Roadmap item
-* External interpretation
+## Current Development Priorities
 
-does not establish or modify project canon.
+The current universe-readiness effort includes:
 
-Canon changes require review, explicit owner approval, and synchronization into the controlled Canon Register.
+1. Founding nomenclature, lineage, and historical legacy
+2. Historical chronology and the founding scientist’s technically plausible biography
+3. Character ensemble and lineage architecture
+4. Civilizations, polities, institutions, and settlement hierarchy
+5. Celestial geography and Proxima-system research
+6. Technology-domain roadmap and technology tree
+7. Energy architecture coordinated with approved RFG/MAR constraints
+8. Franchise architecture benchmark and gap analysis
+9. Universe Architecture Matrix and writer-sandbox maturation
+10. Human-authorship provenance and publication-integrity controls
+11. Definition of the threshold for broader public universe release before manuscript promotion
 
-## Artificial-Intelligence Use
-
-Artificial intelligence systems may assist with:
-
-* Research organization
-* Alternative analysis
-* Technical review
-* Continuity checking
-* Requirements development
-* Architecture analysis
-* Draft development
-* Editing
-* Documentation
-* Cross-review of proposed systems and assumptions
-
-AI-generated material is not automatically accepted as:
-
-* Fact
-* Research evidence
-* Approved project configuration
-* Technical truth
-* Fictional canon
-
-Technical claims must be verified where appropriate.
-
-Assumptions must be identified.
-
-Research must be distinguished from extrapolation and fictional invention.
-
-The project owner retains final authority.
-
-The project may also use multiple AI review environments against the same controlled source records to reduce continuity drift and encourage independent technical challenge.
+---
 
 ## Academic and Professional Context
 
-This project supports **Jason V. Holmes’s** continuing development in systems engineering.
+The project also functions as a long-term systems-engineering laboratory supporting **Jason V. Holmes’s** professional and academic development.
 
 His education includes:
 
-* **Associate of Applied Science (AAS) in Construction Technology** — Community College of the Air Force (CCAF)
-* **Bachelor of Science (BS) in Computer Science** — University of Maryland Global Campus (UMGC)
-* Preparing to begin a **Master of Science (MS) in Information Technology with a Systems Engineering concentration** at UMGC
-* Long-term plans for doctoral study in systems engineering
+- **Associate of Applied Science (AAS) in Construction Technology** — Community College of the Air Force (CCAF)
+- **Bachelor of Science (BS) in Computer Science** — University of Maryland Global Campus (UMGC)
+- Preparing to begin graduate study in **Information Technology with a Systems Engineering concentration** at UMGC
+- Long-term plans for doctoral study in Systems Engineering
 
-The project is intended to function not only as a creative-development environment, but also as a long-term systems-engineering laboratory capable of supporting:
+Potential future outputs include:
 
-* Professional portfolio work
-* Academic case studies
-* Research questions
-* Systems-engineering methodology development
-* Future papers
-* Future educational material
-* Model-Based Systems Engineering experimentation
-* Human-AI collaborative systems-engineering research
+- Professional portfolio work
+- Academic case studies
+- Systems-engineering research questions
+- Model-Based Systems Engineering experiments
+- Civilization-scale systems models
+- Human-AI collaborative systems-engineering research
+- Future papers, conference work, or educational material
 
-The project is independent.
+The project is independent and is not an official project of UMGC, the United States Air Force, the United States Department of Defense, or any current or former employer.
 
-It is not an official project of:
-
-* The University of Maryland Global Campus
-* The United States Air Force
-* The United States Department of Defense
-* Any current or former employer
-
-## Planned Public Artifacts
-
-Initial public-development priorities include:
-
-* Public systems-engineering management framework
-* Stakeholder-needs and mission-objectives model
-* Sanitized requirements hierarchy
-* High-level system-of-systems architecture
-* Technology assessment framework
-* Public trade-study template
-* Risk and failure-mode framework
-* Verification and validation strategy
-* Configuration-management examples
-* Research-methodology examples
-* Architecture-development case studies
-* Public Change Log
-* Public Roadmap
-* Monthly development reports
-* Milestone-based development reports
-
-More detailed technical artifacts will be released only after appropriate internal research, configuration review, canon review where applicable, and public-release sanitization.
-
-## Project Status
-
-**Current phase:** Foundation, canon control, and systems research
-
-The project’s:
-
-* Governance framework
-* Canon-control process
-* Decision system
-* Change-tracking process
-* Research workflow
-* Research-library structure
-* ID and terminology standards
-* Cross-AI coordination framework
-
-are operational.
-
-Current work focuses on validating foundational system architectures and their real-world scientific and engineering analogs before releasing detailed public technical artifacts or manuscript material.
-
-The public repository will expand incrementally as internal artifacts reach sufficient technical maturity and are cleared for public release.
+---
 
 ## Author
 
 **Jason V. Holmes**
 
-* [GitHub Profile](https://github.com/jvholmes87)
-* [ORCID: 0009-0007-2898-8478](https://orcid.org/0009-0007-2898-8478)
-* United States Air Force Veteran
-* Systems-engineering and requirements-engineering practitioner
-* Construction/project-management practitioner
-* Computer science graduate
-* Systems-engineering graduate student
+- [GitHub Profile](https://github.com/jvholmes87)
+- [ORCID: 0009-0007-2898-8478](https://orcid.org/0009-0007-2898-8478)
+- United States Air Force Veteran
+- Engineering / requirements / project-management practitioner
+- Computer science graduate
+- Preparing to begin graduate systems-engineering study
+
+---
 
 ## Rights
 
 © 2026 Jason V. Holmes. All rights reserved.
 
-Unless a specific file states otherwise, the narrative concepts, fictional setting, terminology, prose, diagrams, technical concepts, and other creative content in this repository are not released under an open-source or Creative Commons license.
+Unless a specific file states otherwise, the narrative concepts, fictional setting, terminology, prose, diagrams, technical concepts, characters, and other creative content in this repository are not released under an open-source or Creative Commons license.
 
 Any software, datasets, templates, or reusable technical material released under a separate license will be clearly identified.
