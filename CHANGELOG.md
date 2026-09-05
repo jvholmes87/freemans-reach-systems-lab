@@ -45,12 +45,14 @@ Dates reflect the public project record and may not expose the exact timing of e
 - Jason required a stronger character and lineage architecture before manuscript production becomes the main effort, so future stories can draw from a healthy ensemble rather than repeatedly depending on a small core cast.
 - Jason directed creation of a private, dated creator-contribution record capturing his substantive ideas, corrections, research directions, decisions, and reasoning in addition to the existing formal decision and change logs.
 - Jason required both private and public methodology records explaining the project’s human-led, AI-assisted workflow and requested that sanitized public development records make his contribution and AI assistance distinguishable where useful.
+- Jason approved formalizing **visual development and canon art** as a controlled universe workstream, allowing early non-canon concept exploration while requiring readiness, provenance, systems review, continuity review, and owner approval before imagery is treated as official visual canon. He also approved reserving a future universe-teaser and Book 1 trailer workflow.
 
 ### AI Assistance
 
 - AI research support began comparing the selected franchises across technology progression, institutions, scale, logistics, character architecture, continuity, reusable story engines, writer onboarding, and transmedia coordination.
 - AI assistance converted early comparative findings into structured anti-patterns and design requirements rather than copying franchise-specific content.
 - AI assistance created working private architecture/provenance artifacts and a writer-facing integration framework under the project’s existing configuration-control rules.
+- AI assistance developed the initial staged visual pipeline, Visual Readiness Gate concept, visual status classes, engineering-review logic, provenance requirements, and platform-agnostic trailer/motion workflow.
 
 ### Evidence
 
@@ -64,6 +66,8 @@ Dates reflect the public project record and may not expose the exact timing of e
 - Began a formal franchise-architecture benchmark and gap-analysis workstream.
 - Began a writer-facing **Universe Architecture Matrix** concept that will integrate eras, civilizations/polities, places, characters, organizations, technologies, story permissions, and continuity boundaries while remaining subordinate to private authoritative canon records.
 - Established the public attribution pattern **Owner Contribution / AI Assistance / Evidence / Result** for meaningful development milestones where that distinction improves transparency.
+- Established a controlled **Visual Development & Canon Art Pipeline** internally, including separation of exploratory concept art from official visual canon, a future Visual Canon Bible, asset-status/approval controls, and a Visual Readiness Gate before official canon-grade visual promotion.
+- Reserved a future platform-agnostic universe-teaser and Book 1 trailer production workflow rather than tying the project permanently to one image or video-generation vendor.
 
 ### Changed
 
@@ -72,6 +76,7 @@ Dates reflect the public project record and may not expose the exact timing of e
 - Expanded the universe-readiness gate so Book 1 development waits for a healthier baseline across history, naming, characters, civilizations/polities, celestial geography, and technology architecture.
 - Updated `ROADMAP.md` to reflect the current dependency-driven development sequence rather than an earlier RFG-first roadmap.
 - Rebuilt the public `README.md` around the current universe-first architecture, including the writer-sandbox model, character/lineage development, technology-domain coverage, comparative-franchise research, human-led/AI-assisted provenance method, current development priorities, and corrected terminology boundaries such as the series-title distinction and unresolved literal expansion of `FRS`.
+- Expanded the public `README.md` again to document the new visual-development/canon-art workstream, Visual Readiness Gate concept, future visual bible, and teaser/trailer development approach.
 
 ### Research
 
@@ -82,11 +87,12 @@ Dates reflect the public project record and may not expose the exact timing of e
 
 - Expanded the internal system-domain roadmap beyond the initial technology set to ensure future development also covers medicine, defense/security, resource extraction, agriculture, sensing/navigation, logistics, and knowledge preservation.
 - Continued to treat major capabilities as interdependent systems requiring requirements, interfaces, constraints, failure modes, and verification rather than as isolated narrative devices.
+- Began treating visual design itself as a controlled interface into the universe architecture so images can expose engineering, continuity, scale, and technology conflicts before those conflicts propagate into public material.
 
 ### Repository
 
 - The public repository remains a sanitized, non-authoritative publication layer.
-- Public transparency will increasingly document **how** the universe is engineered, researched, reviewed, and changed while private canon and source records remain under controlled project authority.
+- Public transparency will increasingly document **how** the universe is engineered, researched, reviewed, changed, and eventually visualized while private canon and source records remain under controlled project authority.
 
 ---
 
@@ -148,6 +154,7 @@ As the repository grows, future entries may reference public artifacts such as:
 - Research bibliographies
 - Architecture evolution reports
 - Monthly development summaries
+- Approved or explicitly labeled non-canon visual-development artifacts
 - Academic or professional case studies
 
 The goal is to preserve enough development history for a reader to understand **how the architecture evolved and why**, without exposing material that belongs in the private project environment.
