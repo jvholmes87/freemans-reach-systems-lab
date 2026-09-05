@@ -249,6 +249,36 @@ For example, the project explicitly wants to avoid:
 
 ---
 
+## Visual Development & Canon Art
+
+Visual development is now treated as a controlled universe subsystem rather than an informal marketing activity.
+
+The project may begin **private, non-canon concept exploration** before the universe foundation is complete. Exploratory images can test architecture, infrastructure, characters, spacecraft, facilities, uniforms, interfaces, planetary environments, materials, and industrial design language.
+
+A visually compelling image does **not** become canon merely because it exists, was generated with AI, was commissioned from an artist, or was posted publicly.
+
+The planned visual lifecycle is:
+
+**Concept → Review → Proposed Visual Canon → Owner Approval → Approved Visual Asset / Visual Bible → Public Release as applicable**
+
+A future **Visual Readiness Gate (VRG-01)** will determine when the project is mature enough to promote selected imagery as official canon-grade visual reference. Readiness depends on sufficiently stable nomenclature, characters, civilizations, celestial geography, technology architecture, continuity controls, and provenance rules.
+
+Planned visual-development outputs include:
+
+- A Visual Canon Bible
+- Controlled visual asset identifiers
+- Character and lineage model sheets
+- Civilization and institutional design language
+- Technology, infrastructure, facility, and spacecraft visual standards
+- A public visual launch pack
+- Visual engineering explainers
+- A future universe teaser
+- A later Book 1 trailer after story architecture is mature
+
+Trailer and motion workflows will remain **platform agnostic** so scripts, storyboards, shot lists, continuity requirements, asset IDs, and rights/provenance records remain reusable even if generation or production tools change.
+
+---
+
 ## Project Codex
 
 Freeman’s Reach uses recurring identifiers, technical abbreviations, and systems-engineering terminology.
@@ -342,6 +372,7 @@ The private project maintains separate controlled records for:
 - Research-library source holdings
 - Writer-facing architecture and continuity
 - Human/AI development provenance
+- Visual-development and visual-canon status
 
 These records serve different purposes.
 
@@ -349,7 +380,7 @@ A source in the Research Library is evidence or background material. It does not
 
 A Research Register item records the question being investigated and the project’s synthesized findings.
 
-A proposed technical concept does not become canon simply because it appears in a working document, diagram, AI response, public issue, or GitHub commit.
+A proposed technical or visual concept does not become canon simply because it appears in a working document, diagram, image, AI response, public issue, or GitHub commit.
 
 ---
 
@@ -392,6 +423,7 @@ This repository may eventually include:
 - Sanitized configuration-management examples
 - Universe-architecture methodology
 - Writer-sandbox methodology
+- Visual-development methodology and selected cleared visual assets
 - Academic or professional case studies
 
 This repository will not automatically include:
@@ -405,6 +437,7 @@ This repository will not automatically include:
 - Internal AI conversations or handoffs
 - Private Google Drive links
 - Protected creator-contribution records
+- Unapproved concept imagery presented as official canon
 - Personally identifying or client-sensitive information
 
 ---
@@ -415,7 +448,7 @@ The public GitHub repository is **not** the authoritative canon repository.
 
 Authoritative canon, research findings, decisions, configuration controls, approved specifications, and open questions are maintained privately in Google Drive.
 
-A public issue, comment, pull request, fork, discussion, commit, changelog entry, roadmap item, fan interpretation, or outside contribution does not establish project canon.
+A public issue, comment, pull request, fork, discussion, commit, changelog entry, roadmap item, fan interpretation, outside contribution, or visual concept does not establish project canon.
 
 Canon changes require controlled review, explicit owner approval, and synchronization into the private project records.
 
@@ -436,6 +469,7 @@ The current universe-readiness effort includes:
 9. Universe Architecture Matrix and writer-sandbox maturation
 10. Human-authorship provenance and publication-integrity controls
 11. Definition of the threshold for broader public universe release before manuscript promotion
+12. Visual Development & Canon Art Pipeline maturation, including VRG-01 and future teaser/trailer controls
 
 ---
 
