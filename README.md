@@ -279,6 +279,29 @@ Trailer and motion workflows will remain **platform agnostic** so scripts, story
 
 ---
 
+## Progress Control & Project Observatory
+
+The project uses a controlled **Universe Foundation → Book 1 Readiness** metric rather than an informal sense of completion. The live percentage is maintained in the private Master Project Tracker and is intentionally not hard-coded into this README so the public orientation does not become stale.
+
+The minimum planning objective is **+2.5 percentage points per week**. This KPI does not override research quality, engineering constraints, canon control, provenance requirements, or review gates. Weekly variance is classified as **Ahead / On Pace / Behind**.
+
+**Saturday is the formal weekly project-review day. Sunday is a down day with no planned Freeman’s Reach work.** Weekly reviews evaluate readiness progress, category completion, completed work, blockers, decisions, dependency risks, and the next cycle’s priorities.
+
+A future read-only **Freeman’s Reach Project Observatory v1** is planned as the public progress and architecture-visualization layer. Implementation is deliberately gated until overall Universe Foundation → Book 1 Readiness **exceeds 50%** so the observatory launches with meaningful data instead of becoming premature application-maintenance work.
+
+The approved target architecture is:
+
+- **Astro + TypeScript** — public frontend
+- **Supabase PostgreSQL** — sanitized public database/API layer
+- **ECharts** — project-progress visualization
+- **Cytoscape.js** — dependency and architecture graphs
+- **GitHub** — source control and public development history
+- **Static/serverless hosting** selected at implementation time
+
+The observatory is intended to expose selected public progress, workstream maturity, task/system status, research progress, dependency relationships, visual-development status, and sanitized development history. **Google Drive remains authoritative. Supabase will contain only deliberately cleared public derivative data and will never automatically mirror private canon, research, notes, or protected project records.**
+
+---
+
 ## Project Codex
 
 Freeman’s Reach uses recurring identifiers, technical abbreviations, and systems-engineering terminology.
