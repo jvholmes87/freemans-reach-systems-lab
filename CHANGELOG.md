@@ -71,6 +71,7 @@ Dates reflect the public project record and may not expose the exact timing of e
 - Added a dedicated nomenclature and lineage workstream to separately control settlement, city, planetary, political, population, and legacy terminology.
 - Expanded the universe-readiness gate so Book 1 development waits for a healthier baseline across history, naming, characters, civilizations/polities, celestial geography, and technology architecture.
 - Updated `ROADMAP.md` to reflect the current dependency-driven development sequence rather than an earlier RFG-first roadmap.
+- Rebuilt the public `README.md` around the current universe-first architecture, including the writer-sandbox model, character/lineage development, technology-domain coverage, comparative-franchise research, human-led/AI-assisted provenance method, current development priorities, and corrected terminology boundaries such as the series-title distinction and unresolved literal expansion of `FRS`.
 
 ### Research
 
