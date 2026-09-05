@@ -94,9 +94,12 @@ Begin releasing sanitized examples such as:
 
 ### Public Universe Release and Community Development
 
+**Project Observatory gate:** implementation of the public **Freeman’s Reach Project Observatory v1** will begin only after the private tracker-based **Universe Foundation → Book 1 Readiness** metric exceeds **50%**. The planned architecture uses a public read-only interface backed by sanitized derivative data; private Google Drive canon and research records remain authoritative and are not automatically mirrored to the public database.
+
 Once the internal universe baseline is healthy enough for responsible public discussion:
 
 - Define a sanitized public universe package for GitHub and a future project website.
+- Build the Project Observatory as a public progress, systems-maturity, dependency, research, and universe-coverage visualization layer after the >50% readiness gate is satisfied.
 - Publish selected systems, research methods, diagrams, and architecture-development artifacts.
 - Develop Reddit, YouTube, and other community-outreach channels around the engineering process and universe development.
 - Establish feedback intake without allowing public comments to become uncontrolled canon.
