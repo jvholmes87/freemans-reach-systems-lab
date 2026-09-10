@@ -28,7 +28,8 @@ Items may move between sections as research, dependencies, or architecture decis
 - Maintain the approved definition-level foundations for the **Resonant Field Generator (RFG)** and **Mass Anchor Relocation (MAR)** while deferring unsupported numerical performance claims.
 - Develop the civilization-scale **energy architecture** that constrains later infrastructure, industry, transport, and advanced-system performance.
 - Establish a controlled **nomenclature, lineage, and legacy architecture** separating the series title from in-universe settlement, city, planetary, political, and population names.
-- Expand the cross-system **technology-domain roadmap** so major capabilities are developed through dependencies rather than introduced ad hoc.
+- Review and refine the initial cross-system **technology-domain roadmap**, which now organizes 15 technology domains, 71 directed dependency interfaces, five non-canon planning gates, and 15 controlled specification packages.
+- Reconcile roadmap planning gates with upstream architecture and research constraints before opening the first dependency-wave specifications.
 - Maintain separation between established science, engineering extrapolation, and fictional new physics.
 - Continue configuration-control discipline across project decisions, research findings, systems, entities, and canon.
 - Expand the **Project Codex** as recurring terminology is introduced.
@@ -158,6 +159,7 @@ This structure is a planning model, not a promise that every directory or artifa
 - `README.md` — public project orientation, methodology, codex, governance boundary, academic context, and repository scope
 - `CHANGELOG.md` — sanitized public development and architecture-evolution log
 - `ROADMAP.md` — public Now / Next / Later development roadmap
+- Development-status snapshot — sanitized readiness progress, drift-control milestone, and technology-roadmap scope
 
 ---
 
