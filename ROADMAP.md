@@ -61,6 +61,7 @@ Items may move between sections as research, dependencies, or architecture decis
 - Build a character and institutional-lineage framework spanning the founding generation, later technical leadership, principal characters, and supporting characters.
 - Define the primary polity/civilization, subordinate jurisdictions, institutions, settlements, and later supporting or external civilizations.
 - Develop the celestial-geography baseline using real astronomy for external identities while keeping in-universe names separately controlled.
+- Evaluate a project-side spatial atlas as a non-canon, derivative view that preserves source, coordinate reference, uncertainty, and status after the geography and navigation foundations mature.
 
 ### Major System Architectures
 

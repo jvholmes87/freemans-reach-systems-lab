@@ -498,14 +498,14 @@ The current universe-readiness effort includes:
 
 ## Development Status Snapshot
 
-**As of 2026-09-10:**
+**As of 2026-09-26:**
 
-- **Universe Foundation → Book 1 Readiness:** 27.8%
-- **Change from the preceding 25.2% baseline:** +2.6 percentage points
-- **Configuration-drift audit:** corrective actions completed; passing state
+- **Universe Foundation → Book 1 Readiness:** 32.8%
+- **Change from the preceding public snapshot (2026-09-10, 27.8%):** +5.0 percentage points
 - **Technology-domain roadmap:** structured working-review stage
 - **Current roadmap scope:** 15 technology domains, 71 directed dependency interfaces, five non-canon planning gates, and 15 controlled specification packages
-- **Next control step:** owner and cross-review before detailed dependency-wave specifications are opened
+- **Spatial-data development:** an early, non-canon atlas proposal is being assessed as a derivative view of controlled project records; no public atlas or simulation has been released
+- **Next control step:** continue owner and cross-review and resolve upstream geography and navigation dependencies before considering public spatial views or simulations
 
 These figures describe internal development management, not manuscript completion, canon volume, or public-release readiness. Detailed records and approval authority remain in the private Google Drive repository.
 
