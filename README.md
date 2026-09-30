@@ -415,14 +415,42 @@ Public transparency includes:
 
 - [`CHANGELOG.md`](CHANGELOG.md) — sanitized event-driven development history
 - [`ROADMAP.md`](ROADMAP.md) — dependency-aware Now / Next / Later priorities
-- `docs/updates/YYYY/YYYY-MM.md` — future monthly development reports
-- `docs/methodology/` — public methods and governance explanations
+- [`docs/README.md`](docs/README.md) — documentation index
+- [`docs/updates/2026/2026-09.md`](docs/updates/2026/2026-09.md) — latest monthly development report
+- [`docs/updates/`](docs/updates/) — monthly report archive and format
+- [`docs/methodology/`](docs/methodology/) — public methods and governance explanations
+- [`templates/`](templates/) — reusable, non-canon systems-engineering and disclosure-control templates
 
 Public development records may increasingly use the pattern:
 
 **Owner Contribution → AI Assistance → Evidence → Result**
 
 This makes the development process legible without exposing unpublished canon, spoilers, private research issues, protected technical details, or private Google Drive content.
+
+---
+
+## Repository Map
+
+```text
+freemans-reach-systems-lab/
+├── README.md
+├── CHANGELOG.md
+├── ROADMAP.md
+├── docs/
+│   ├── README.md
+│   ├── methodology/
+│   │   └── HUMAN_AI_DEVELOPMENT_METHOD.md
+│   └── updates/
+│       ├── README.md
+│       └── 2026/
+│           └── 2026-09.md
+└── templates/
+    ├── README.md
+    ├── PUBLIC_RELEASE_CHECKLIST.md
+    └── SYSTEMS_ENGINEERING_ARTIFACT_PACK.md
+```
+
+The map lists public artifacts only. Private Google Drive records, manuscripts, research holdings, and internal handoffs are intentionally excluded.
 
 ---
 
@@ -498,14 +526,16 @@ The current universe-readiness effort includes:
 
 ## Development Status Snapshot
 
-**As of 2026-09-26:**
+**As of 2026-09-30:**
 
 - **Universe Foundation → Book 1 Readiness:** 32.8%
 - **Change from the preceding public snapshot (2026-09-10, 27.8%):** +5.0 percentage points
-- **Technology-domain roadmap:** structured working-review stage
-- **Current roadmap scope:** 15 technology domains, 71 directed dependency interfaces, five non-canon planning gates, and 15 controlled specification packages
-- **Spatial-data development:** an early, non-canon atlas proposal is being assessed as a derivative view of controlled project records; no public atlas or simulation has been released
-- **Next control step:** continue owner and cross-review and resolve upstream geography and navigation dependencies before considering public spatial views or simulations
+- **Change since the 2026-09-26 public update:** 0.0 percentage points; no progress was credited merely to close the month
+- **Technology-domain roadmap:** complete as a non-canon architecture and control baseline
+- **Current roadmap scope:** 15 technology domains, a reconciled cross-domain dependency model, and five non-canon planning gates
+- **Spatial-data development:** an early, non-canon atlas proposal remains under controlled review; no public atlas or simulation has been released
+- **Next control step:** mature the founding-civilization, chronology, celestial-geography, education/knowledge-preservation, and sensing/navigation baselines before releasing detailed public system artifacts
+- **Monthly report:** [September 2026](docs/updates/2026/2026-09.md)
 
 These figures describe internal development management, not manuscript completion, canon volume, or public-release readiness. Detailed records and approval authority remain in the private Google Drive repository.
 
