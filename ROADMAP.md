@@ -28,7 +28,7 @@ Items may move between sections as research, dependencies, or architecture decis
 - Maintain the approved definition-level foundations for the **Resonant Field Generator (RFG)** and **Mass Anchor Relocation (MAR)** while deferring unsupported numerical performance claims.
 - Develop the civilization-scale **energy architecture** that constrains later infrastructure, industry, transport, and advanced-system performance.
 - Establish a controlled **nomenclature, lineage, and legacy architecture** separating the series title from in-universe settlement, city, planetary, political, and population names.
-- Review and refine the initial cross-system **technology-domain roadmap**, which now organizes 15 technology domains, 71 directed dependency interfaces, five non-canon planning gates, and 15 controlled specification packages.
+- Maintain the completed cross-system **technology-domain roadmap** as a non-canon architecture and control baseline spanning 15 technology domains, a reconciled cross-domain dependency model, and five non-canon planning gates.
 - Reconcile roadmap planning gates with upstream architecture and research constraints before opening the first dependency-wave specifications.
 - Maintain separation between established science, engineering extrapolation, and fictional new physics.
 - Continue configuration-control discipline across project decisions, research findings, systems, entities, and canon.
@@ -41,7 +41,7 @@ Items may move between sections as research, dependencies, or architecture decis
 - Keep `README.md` synchronized with the current public project state.
 - Use `CHANGELOG.md` for meaningful event-driven public updates.
 - Use `ROADMAP.md` for dependency-aware public priorities.
-- Define the structure for future monthly development reports under `docs/updates/YYYY/`.
+- Maintain monthly development reports under `docs/updates/YYYY/` and keep them subordinate to the private authoritative records.
 - Prepare the repository for future public systems-engineering artifacts without exposing private source records or unresolved canon.
 
 ---
@@ -161,6 +161,9 @@ This structure is a planning model, not a promise that every directory or artifa
 - `CHANGELOG.md` — sanitized public development and architecture-evolution log
 - `ROADMAP.md` — public Now / Next / Later development roadmap
 - Development-status snapshot — sanitized readiness progress, drift-control milestone, and technology-roadmap scope
+- `docs/updates/2026/2026-09.md` — first sanitized monthly development report
+- `templates/SYSTEMS_ENGINEERING_ARTIFACT_PACK.md` — reusable public templates for architecture decisions, requirements traceability, trade studies, risk/reliability, verification and validation, and research bibliography organization
+- `templates/PUBLIC_RELEASE_CHECKLIST.md` — disclosure and public/private-boundary review control
 
 ---
 
