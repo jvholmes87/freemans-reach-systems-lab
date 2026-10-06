@@ -36,6 +36,17 @@ Dates reflect the public project record and may not expose the exact timing of e
 
 ---
 
+## 2026-10-06 — Public Web Explorer v1.1
+
+### Public presentation
+
+- Prepared the Public Web Explorer v1.1 for review: a static visual introduction with an animated starfield, non-canon planetary artwork, and clickable project areas.
+- Added the site files under `docs/` and a README preview and launch link while preserving the existing public documentation and templates.
+- The explorer is a **NON-CANON concept site** and a non-authoritative public presentation; it does not establish or change fictional canon.
+- Public site: [Freeman’s Reach Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/) — available after merge and GitHub Pages enablement.
+
+---
+
 ## 2026-10-06
 
 ### Research

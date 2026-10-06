@@ -22,6 +22,16 @@ The public repository is a **sanitized development and publication layer**. The 
 
 ---
 
+## Explore Freeman's Reach
+
+![Freeman's Reach visual explorer preview](docs/assets/preview.png)
+
+[Launch the Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/)
+
+**NON-CANON concept site:** This public presentation is non-authoritative and does not establish or change fictional canon.
+
+---
+
 ## Project Identity
 
 **Freeman’s Reach is the series / universe title. It is not the formal in-universe name of the civilization, polity, founding city, planet, or people.**
@@ -438,6 +448,12 @@ freemans-reach-systems-lab/
 ├── ROADMAP.md
 ├── docs/
 │   ├── README.md
+│   ├── index.html
+│   ├── .nojekyll
+│   ├── assets/
+│   │   ├── app.js
+│   │   ├── style.css
+│   │   └── preview.png
 │   ├── methodology/
 │   │   └── HUMAN_AI_DEVELOPMENT_METHOD.md
 │   └── updates/
