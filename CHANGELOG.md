@@ -36,14 +36,27 @@ Dates reflect the public project record and may not expose the exact timing of e
 
 ---
 
+## 2026-10-06 — Public Web Explorer v1.2
+
+### Public presentation
+
+- Added a universe synopsis, a static dated development-status snapshot, public milestones, and a non-binding Now / Next / Later roadmap, restated from existing public repository files.
+- The status snapshot is dated **2026-09-30** and shows **32.8% Universe Foundation → Book 1 Readiness**. It is a project-management indicator, not manuscript completion, canon volume, technical validation, or public-release readiness.
+- This static snapshot is not the Project Observatory. Live data, databases, and per-system maturity remain Observatory scope, gated until readiness **exceeds 50%**.
+- Added `docs/assets/site-data.js` as the static public-content source; preserved the existing preview image, Pages marker, and public Markdown documentation.
+- The explorer remains a **NON-CANON concept site** and a non-authoritative public presentation. No fictional canon was established or changed.
+- Public site: [Freeman’s Reach Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/). The v1.2 update is proposed in this pull request and awaits merge.
+
+---
+
 ## 2026-10-06 — Public Web Explorer v1.1
 
 ### Public presentation
 
-- Prepared the Public Web Explorer v1.1 for review: a static visual introduction with an animated starfield, non-canon planetary artwork, and clickable project areas.
+- Launched the Public Web Explorer v1.1: a static visual introduction with an animated starfield, non-canon planetary artwork, and clickable project areas.
 - Added the site files under `docs/` and a README preview and launch link while preserving the existing public documentation and templates.
 - The explorer is a **NON-CANON concept site** and a non-authoritative public presentation; it does not establish or change fictional canon.
-- Public site: [Freeman’s Reach Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/) — available after merge and GitHub Pages enablement.
+- Public site: [Freeman’s Reach Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/) — live on GitHub Pages.
 
 ---
 
