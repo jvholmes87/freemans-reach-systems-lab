@@ -33,3 +33,43 @@ motionButton.addEventListener('click',()=>{paused=!paused;sync();});
 preference.addEventListener('change',event=>{paused=event.matches;sync();});
 document.addEventListener('visibilitychange',()=>{document.body.classList.toggle('paused',paused||document.hidden);cancelAnimationFrame(frame);frame=0;previous=0;if(!paused&&!document.hidden)frame=requestAnimationFrame(tick);});
 window.addEventListener('resize',resize);resize();sync();
+
+// v1.2 — render public sections from site-data.js (textContent only; no HTML injection).
+(function renderPublicSections(){
+ const d = window.FR_SITE; if (!d) return;
+ const $ = id => document.getElementById(id);
+ const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+ const fill = (id, items) => { const ul = $(id); if (ul) ul.replaceChildren(...items.map(t => el('li', null, t))); };
+ // Synopsis
+ const s = d.synopsis;
+ $('syn-body').replaceChildren(...s.paragraphs.map(p => el('p', null, p)));
+ fill('syn-established', s.established); fill('syn-pending', s.inDevelopment);
+ $('syn-source').textContent = 'SOURCE: ' + s.source;
+ // Status
+ const st = d.status, pct = v => Math.max(0, Math.min(100, v)) + '%';
+ $('status-metric').textContent = st.metric;
+ $('status-value').textContent = st.value.toFixed(1) + '%';
+ const asof = $('status-asof'); asof.textContent = 'As of ' + st.asOf + ' · ' + st.phase + '. ';
+ const a = el('a', null, 'Read the monthly report ↗'); a.href = st.reportHref; asof.append(el('br'), a);
+ $('status-fill').style.width = pct(st.value);
+ const bar = $('status-bar');
+ bar.setAttribute('aria-label', st.metric + ': ' + st.value + '% as of ' + st.asOf + '. Previous public points: ' + st.markers.map(m => m.label + ' ' + m.value + '%').join(', ') + '. ' + st.gate.label + ' at ' + st.gate.value + '%.');
+ for (const m of st.markers) { const t = el('span', 'tick'); t.style.left = pct(m.value); t.title = m.label + ' · ' + m.value + '%'; bar.append(t); }
+ const g = el('span', 'gate'); g.style.left = pct(st.gate.value); bar.append(g);
+ const scale = $('status-scale');
+ scale.append(el('span', 'scale-start', '0%'));
+ const gl = el('span', 'scale-gate', st.gate.value + '% · ' + st.gate.label); gl.style.left = pct(st.gate.value); scale.append(gl);
+ scale.append(el('span', 'scale-end', '100%'));
+ const hist = el('p', 'history', 'Public points: ' + st.markers.map(m => m.label + ' ' + m.value + '%').join(' → '));
+ scale.after(hist);
+ $('status-caption').textContent = st.caption;
+ $('status-stats').replaceChildren(...st.stats.flatMap(x => { const w = el('div', 'stat'); w.append(el('dt', null, x.label), el('dd', null, x.value)); return [w]; }));
+ $('status-source').textContent = 'SOURCE: ' + st.source + ' · Static dated snapshot, updated monthly. Not a live tracker.';
+ // Milestones
+ $('ms-list').replaceChildren(...d.milestones.map(m => { const li = el('li'); const time = el('time', null, m.date); time.dateTime = m.date; li.append(time, el('h3', null, m.title), el('p', null, m.text)); return li; }));
+ // Roadmap
+ const r = d.roadmap; $('rm-note').textContent = r.note; $('rm-source').textContent = 'SOURCE: ' + r.source;
+ $('rm-cols').replaceChildren(...r.columns.map(c => { const col = el('div', 'rm-col'); col.append(el('p', 'rm-stage', c.stage.toUpperCase()));
+  for (const grp of c.groups) { const art = el('article'); art.append(el('h3', null, grp.heading)); const ul = el('ul'); ul.replaceChildren(...grp.points.map(p => el('li', null, p))); art.append(ul); col.append(art); }
+  return col; }));
+})();

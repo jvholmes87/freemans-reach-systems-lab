@@ -453,6 +453,7 @@ freemans-reach-systems-lab/
 │   ├── assets/
 │   │   ├── app.js
 │   │   ├── style.css
+│   │   ├── site-data.js
 │   │   └── preview.png
 │   ├── methodology/
 │   │   └── HUMAN_AI_DEVELOPMENT_METHOD.md

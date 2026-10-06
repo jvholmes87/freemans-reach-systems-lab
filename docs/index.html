@@ -11,12 +11,12 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23071017'/%3E%3Ccircle cx='32' cy='32' r='26' fill='none' stroke='%23a6efd1' stroke-width='3'/%3E%3Ctext x='32' y='40' font-family='sans-serif' font-size='22' fill='%23a6efd1' text-anchor='middle'%3EFR%3C/text%3E%3C/svg%3E">
 <title>Freeman’s Reach • Systems Universe</title>
-<link rel="stylesheet" href="assets/style.css"><script defer src="assets/app.js"></script>
+<link rel="stylesheet" href="assets/style.css"><script defer src="assets/site-data.js"></script><script defer src="assets/app.js"></script>
 </head>
 <body>
 <a class="skip" href="#explore">Skip to exploration</a>
 <canvas id="stars" aria-hidden="true"></canvas>
-<header class="shell mast"><a class="brand" href="#"><span class="mark">FR</span><span>FREEMAN’S REACH<small>SYSTEMS UNIVERSE</small></span></a><nav aria-label="Main"><a href="#explore">Explore</a><a href="#method">The approach</a><a href="https://github.com/jvholmes87/freemans-reach-systems-lab">GitHub ↗</a></nav><button id="motion" aria-pressed="false">Pause motion</button></header>
+<header class="shell mast"><a class="brand" href="#"><span class="mark">FR</span><span>FREEMAN’S REACH<small>SYSTEMS UNIVERSE</small></span></a><nav aria-label="Main"><a href="#synopsis">Synopsis</a><a href="#status">Status</a><a href="#roadmap">Roadmap</a><a href="#explore">Explore</a><a href="https://github.com/jvholmes87/freemans-reach-systems-lab">GitHub ↗</a></nav><button id="motion" aria-pressed="false">Pause motion</button></header>
 <main>
 <section class="shell hero" aria-labelledby="hero-title">
 <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> INFRASTRUCTURE-FIRST SCIENCE FICTION</p><h1 id="hero-title">Civilizations<br>are <em>built.</em></h1><p class="intro">Explore Freeman’s Reach through the systems that make a civilization possible. Energy. Infrastructure. Industry. Decisions with consequences.</p><div class="actions"><a class="primary" href="#explore">Enter the universe <span>→</span></a><a class="secondary" href="#method">Explore the approach →</a></div><div class="hero-note"><span>VISUAL DEVELOPMENT STUDY</span><p>Non-canon illustration • No astronomical scale implied</p></div></div>
@@ -37,6 +37,15 @@
 <div class="scene-tag"><span>THE REACH</span><small>FORM FOLLOWS SYSTEM</small></div></div>
 </section>
 <div class="shell strip"><span>01 / DEFINE REQUIREMENTS</span><span>02 / DESIGN SYSTEMS</span><span>03 / TEST CONSTRAINTS</span><span>04 / TELL THE STORY</span></div>
+<section id="synopsis" class="shell block" aria-labelledby="syn-title"><div class="section-head"><div><p class="eyebrow">THE UNIVERSE</p><h2 id="syn-title">What is public so far.</h2></div><p>Drawn only from the project’s public repository.<br>Private records remain authoritative.</p></div>
+<div class="synopsis"><div id="syn-body" class="syn-body"></div>
+<div class="syn-lists"><div class="syn-list"><h3>Publicly established</h3><ul id="syn-established"></ul></div><div class="syn-list pending"><h3>Still in controlled development</h3><ul id="syn-pending"></ul></div></div></div><p class="source" id="syn-source"></p></section>
+<section id="status" class="shell block" aria-labelledby="status-title"><div class="section-head"><div><p class="eyebrow">DEVELOPMENT STATUS</p><h2 id="status-title">Where the build stands.</h2></div><p id="status-asof"></p></div>
+<div class="status-panel"><div class="readiness"><div class="readiness-head"><span id="status-metric"></span><strong id="status-value"></strong></div>
+<div class="bar" id="status-bar" role="img"><div class="bar-fill" id="status-fill"></div></div>
+<div class="bar-scale" id="status-scale" aria-hidden="true"></div><p class="caption" id="status-caption"></p></div>
+<dl class="stats" id="status-stats"></dl></div><p class="source" id="status-source"></p></section>
+<section id="milestones" class="shell block" aria-labelledby="ms-title"><div class="section-head"><div><p class="eyebrow">MILESTONES</p><h2 id="ms-title">The public record.</h2></div><p>Dated entries from the public change log.</p></div><ol class="timeline" id="ms-list"></ol></section>
 <section id="explore" class="shell exploration" aria-labelledby="explore-title"><div class="section-head"><div><p class="eyebrow">PROJECT EXPLORER</p><h2 id="explore-title">Every system has a story.</h2></div><p>Select a node to explore a project area.<br>This is a navigation map, not a physical map.</p></div>
 <div class="explorer"><div class="map"><svg class="connections" viewBox="0 0 700 460" aria-hidden="true"><path d="M350 230L160 90M350 230L540 90M350 230L160 365M350 230L540 365M350 230L350 65"/></svg><div class="core"><span>FR</span><small>SYSTEMS UNIVERSE</small></div>
 <button class="node n1" data-id="engineering" aria-pressed="true"><span>01</span>Science &amp; engineering<small>REQUIREMENTS / CONSTRAINTS</small></button>
@@ -45,8 +54,9 @@
 <button class="node n4" data-id="books" aria-pressed="false"><span>04</span>Books &amp; narrative<small>DECISIONS / CONSEQUENCES</small></button>
 <button class="node n5" data-id="research" aria-pressed="false"><span>05</span>Research library<small>EVIDENCE / TRACEABILITY</small></button></div>
 <aside class="detail" aria-live="polite" aria-atomic="true"><p class="eyebrow" id="detail-number">01 / PROJECT AREA</p><h3 id="detail-title">Science &amp; engineering</h3><p id="detail-description">Explore the purpose, interfaces, operating limits, and failure modes of the universe’s technology.</p><ul id="detail-tags"><li>Energy systems</li><li>Materials</li><li>Propulsion</li><li>Failure analysis</li></ul><p class="status">SOURCE: UPLOADED PROJECT GUIDE</p><p class="detail-note">Area names and topics follow the guide. Detailed specifications and completion status are not loaded.</p><a id="detail-link" href="https://github.com/jvholmes87/freemans-reach-systems-lab">Visit the project repository ↗</a></aside></div></section>
+<section id="roadmap" class="shell block" aria-labelledby="rm-title"><div class="section-head"><div><p class="eyebrow">PLANNED AREAS</p><h2 id="rm-title">Now. Next. Later.</h2></div><p id="rm-note"></p></div><div class="roadmap" id="rm-cols"></div><p class="source" id="rm-source"></p></section>
 <section id="method" class="shell method"><div class="section-head"><div><p class="eyebrow">THE DESIGN PHILOSOPHY</p><h2>Build the system.<br>Earn the outcome.</h2></div><p>Competence, constraints, and consequences<br>guide the development of Freeman’s Reach.</p></div><div class="cards"><article><span>01 / SYSTEMS</span><h3>Infrastructure comes first.</h3><p>Define the energy, manufacturing, transportation, and support systems that allow civilization to operate.</p></article><article><span>02 / CONSTRAINTS</span><h3>Capability has a cost.</h3><p>Technology requires inputs and interfaces. Its operating envelope, risks, and failure modes belong in the design.</p></article><article><span>03 / STORY</span><h3>Decisions drive the narrative.</h3><p>Scenes reveal systems, force decisions, advance events, or escalate conflict. Solutions must respect the rules.</p></article></div></section>
 <section class="shell closing"><p class="eyebrow">OPEN DEVELOPMENT / CONTROLLED CANON</p><h2>Follow the build.</h2><p>Explore the project’s public research and development on GitHub.</p><a class="primary" href="https://github.com/jvholmes87/freemans-reach-systems-lab">Open the systems lab ↗</a></section>
 </main><footer class="shell"><span>FREEMAN’S REACH · Jason Von Holmes</span><span>Public visual prototype · Non-canon artwork</span></footer>
-<noscript><p class="shell">JavaScript is disabled. Project navigation remains available through the repository links; the interactive explorer and starfield require JavaScript.</p></noscript>
+<noscript><p class="shell">JavaScript is disabled. The synopsis, status, milestones, roadmap, interactive explorer, and starfield require JavaScript. The same public information is available in the project repository README and ROADMAP.</p></noscript>
 </body></html>
