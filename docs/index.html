@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore Freeman’s Reach: Systems Universe — a visual introduction to infrastructure-first science fiction.">
+<meta name="theme-color" content="#071017">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Freeman’s Reach • Systems Universe">
+<meta property="og:description" content="A visual introduction to infrastructure-first science fiction.">
+<meta property="og:image" content="https://jvholmes87.github.io/freemans-reach-systems-lab/assets/preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23071017'/%3E%3Ccircle cx='32' cy='32' r='26' fill='none' stroke='%23a6efd1' stroke-width='3'/%3E%3Ctext x='32' y='40' font-family='sans-serif' font-size='22' fill='%23a6efd1' text-anchor='middle'%3EFR%3C/text%3E%3C/svg%3E">
+<title>Freeman’s Reach • Systems Universe</title>
+<link rel="stylesheet" href="assets/style.css"><script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#explore">Skip to exploration</a>
+<canvas id="stars" aria-hidden="true"></canvas>
+<header class="shell mast"><a class="brand" href="#"><span class="mark">FR</span><span>FREEMAN’S REACH<small>SYSTEMS UNIVERSE</small></span></a><nav aria-label="Main"><a href="#explore">Explore</a><a href="#method">The approach</a><a href="https://github.com/jvholmes87/freemans-reach-systems-lab">GitHub ↗</a></nav><button id="motion" aria-pressed="false">Pause motion</button></header>
+<main>
+<section class="shell hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span class="dot"></span> INFRASTRUCTURE-FIRST SCIENCE FICTION</p><h1 id="hero-title">Civilizations<br>are <em>built.</em></h1><p class="intro">Explore Freeman’s Reach through the systems that make a civilization possible. Energy. Infrastructure. Industry. Decisions with consequences.</p><div class="actions"><a class="primary" href="#explore">Enter the universe <span>→</span></a><a class="secondary" href="#method">Explore the approach →</a></div><div class="hero-note"><span>VISUAL DEVELOPMENT STUDY</span><p>Non-canon illustration • No astronomical scale implied</p></div></div>
+<div class="scene" role="img" aria-label="Non-canon stylized planetary horizon surrounded by abstract engineering rings">
+<svg viewBox="0 0 640 640" aria-hidden="true"><defs>
+<radialGradient id="planet" cx="33%" cy="26%" r="77%"><stop stop-color="#42665c"/><stop offset=".43" stop-color="#203f43"/><stop offset=".72" stop-color="#101d28"/><stop offset="1" stop-color="#020811"/></radialGradient>
+<radialGradient id="halo"><stop offset=".64" stop-color="#4fdcc0" stop-opacity="0"/><stop offset=".7" stop-color="#67e8d1" stop-opacity=".18"/><stop offset="1" stop-color="#67e8d1" stop-opacity="0"/></radialGradient>
+<clipPath id="sphere"><circle cx="320" cy="320" r="182"/></clipPath>
+<linearGradient id="shine"><stop stop-color="#87e9cf" stop-opacity=".5"/><stop offset=".65" stop-color="#87e9cf" stop-opacity="0"/></linearGradient>
+</defs>
+<circle cx="320" cy="320" r="285" fill="url(#halo)"/>
+<g fill="none" stroke="#87abaf" stroke-opacity=".18"><circle cx="320" cy="320" r="254" stroke-dasharray="2 10"/><ellipse cx="320" cy="320" rx="285" ry="104" transform="rotate(-28 320 320)"/><ellipse cx="320" cy="320" rx="260" ry="230" transform="rotate(-28 320 320)"/><path d="M22 320H618M320 22V618" stroke-dasharray="3 9"/></g>
+<circle cx="320" cy="320" r="182" fill="url(#planet)" stroke="#8ae2cf" stroke-opacity=".45"/>
+<g clip-path="url(#sphere)" fill="none" stroke="url(#shine)" stroke-width="1"><ellipse cx="320" cy="320" rx="80" ry="182"/><ellipse cx="320" cy="320" rx="145" ry="182"/><ellipse cx="320" cy="320" rx="182" ry="60"/><ellipse cx="320" cy="320" rx="182" ry="130"/><path d="M138 320H502M320 138V502"/><path d="M155 235l71-33 58 24 18 53 49 20 32 69-33 56-64 17-44-42-45-28-18-65zM374 173l35 44 64 17 44 57-31 30-34-41-65-26-42-29z" stroke="#79cfb5" stroke-width="11" stroke-opacity=".14"/></g>
+<g class="orbit" fill="none"><circle cx="320" cy="320" r="224" stroke="#a5e5d8" stroke-opacity=".18"/><path d="M96 320a224 224 0 0 1 224-224" stroke="#8be4cf" stroke-width="2"/><circle cx="320" cy="96" r="5" fill="#9ff3dc"/></g>
+<g fill="#a5bcbf" font-size="10" font-family="monospace" letter-spacing="2"><text x="52" y="86">CONCEPT / 001</text><text x="379" y="559">ENGINEERING THE REACH</text></g><path d="M420 466l52 48h125M212 185L140 123H46" fill="none" stroke="#769493" stroke-opacity=".4"/>
+</svg>
+<div class="scene-tag"><span>THE REACH</span><small>FORM FOLLOWS SYSTEM</small></div></div>
+</section>
+<div class="shell strip"><span>01 / DEFINE REQUIREMENTS</span><span>02 / DESIGN SYSTEMS</span><span>03 / TEST CONSTRAINTS</span><span>04 / TELL THE STORY</span></div>
+<section id="explore" class="shell exploration" aria-labelledby="explore-title"><div class="section-head"><div><p class="eyebrow">PROJECT EXPLORER</p><h2 id="explore-title">Every system has a story.</h2></div><p>Select a node to explore a project area.<br>This is a navigation map, not a physical map.</p></div>
+<div class="explorer"><div class="map"><svg class="connections" viewBox="0 0 700 460" aria-hidden="true"><path d="M350 230L160 90M350 230L540 90M350 230L160 365M350 230L540 365M350 230L350 65"/></svg><div class="core"><span>FR</span><small>SYSTEMS UNIVERSE</small></div>
+<button class="node n1" data-id="engineering" aria-pressed="true"><span>01</span>Science &amp; engineering<small>REQUIREMENTS / CONSTRAINTS</small></button>
+<button class="node n2" data-id="civilization" aria-pressed="false"><span>02</span>Civilization systems<small>INFRASTRUCTURE / SERVICES</small></button>
+<button class="node n3" data-id="ships" aria-pressed="false"><span>03</span>Ships &amp; facilities<small>INTERFACES / LOGISTICS</small></button>
+<button class="node n4" data-id="books" aria-pressed="false"><span>04</span>Books &amp; narrative<small>DECISIONS / CONSEQUENCES</small></button>
+<button class="node n5" data-id="research" aria-pressed="false"><span>05</span>Research library<small>EVIDENCE / TRACEABILITY</small></button></div>
+<aside class="detail" aria-live="polite" aria-atomic="true"><p class="eyebrow" id="detail-number">01 / PROJECT AREA</p><h3 id="detail-title">Science &amp; engineering</h3><p id="detail-description">Explore the purpose, interfaces, operating limits, and failure modes of the universe’s technology.</p><ul id="detail-tags"><li>Energy systems</li><li>Materials</li><li>Propulsion</li><li>Failure analysis</li></ul><p class="status">SOURCE: UPLOADED PROJECT GUIDE</p><p class="detail-note">Area names and topics follow the guide. Detailed specifications and completion status are not loaded.</p><a id="detail-link" href="https://github.com/jvholmes87/freemans-reach-systems-lab">Visit the project repository ↗</a></aside></div></section>
+<section id="method" class="shell method"><div class="section-head"><div><p class="eyebrow">THE DESIGN PHILOSOPHY</p><h2>Build the system.<br>Earn the outcome.</h2></div><p>Competence, constraints, and consequences<br>guide the development of Freeman’s Reach.</p></div><div class="cards"><article><span>01 / SYSTEMS</span><h3>Infrastructure comes first.</h3><p>Define the energy, manufacturing, transportation, and support systems that allow civilization to operate.</p></article><article><span>02 / CONSTRAINTS</span><h3>Capability has a cost.</h3><p>Technology requires inputs and interfaces. Its operating envelope, risks, and failure modes belong in the design.</p></article><article><span>03 / STORY</span><h3>Decisions drive the narrative.</h3><p>Scenes reveal systems, force decisions, advance events, or escalate conflict. Solutions must respect the rules.</p></article></div></section>
+<section class="shell closing"><p class="eyebrow">OPEN DEVELOPMENT / CONTROLLED CANON</p><h2>Follow the build.</h2><p>Explore the project’s public research and development on GitHub.</p><a class="primary" href="https://github.com/jvholmes87/freemans-reach-systems-lab">Open the systems lab ↗</a></section>
+</main><footer class="shell"><span>FREEMAN’S REACH · Jason Von Holmes</span><span>Public visual prototype · Non-canon artwork</span></footer>
+<noscript><p class="shell">JavaScript is disabled. Project navigation remains available through the repository links; the interactive explorer and starfield require JavaScript.</p></noscript>
+</body></html>
