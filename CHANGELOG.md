@@ -36,6 +36,36 @@ Dates reflect the public project record and may not expose the exact timing of e
 
 ---
 
+## 2026-10-31 — October Monthly Update and Public Architecture Baseline
+
+### Status
+
+- Published the sanitized October monthly report.
+- Confirmed **Universe Foundation → Book 1 Readiness at 32.8%**, unchanged during October; no work was credited without satisfying its completion criteria.
+- Confirmed 16 approved canon entries and no October canon change.
+- Recorded 14 unresolved questions publicly as an aggregate only: thirteen open or researching and one proposed resolution still awaiting approval.
+
+### Progress
+
+- Recorded the launch and maturation of the static, non-canon Public Web Explorer.
+- Summarized controlled research and review progress across environment, historical context, character architecture, education/knowledge preservation, and sensing/navigation without publishing private findings or unresolved design choices.
+- Recorded reconciliation of the technology dependency model without disclosing private interface data.
+
+### Repository Architecture
+
+- Added a public architecture index and ADR for the static Explorer boundary.
+- Added publication requirements and traceability, a static-snapshot trade study, a public release risk and reliability register, and a source-level verification baseline.
+- Added a research and bibliography organization standard without creating empty topic folders or redistributing private research.
+- Updated the README repository map, documentation indexes, roadmap, release checklist, and static site data.
+- Preserved all stable public paths and made no destructive reorganization.
+
+### Withheld and Approval Boundary
+
+- Withheld manuscripts, spoilers, unresolved naming and canon, detailed speculative physics, restricted research, private links, internal handoffs, personal or client-sensitive material, non-canon proposals, and unapproved visual/media assets.
+- No new canon approval is requested by this repository release. Owner approval remains required before proposed worldbuilding, visuals, technical performance, or story material can be presented as established.
+
+---
+
 ## 2026-10-06 — Public Web Explorer v1.2
 
 ### Public presentation
@@ -45,7 +75,7 @@ Dates reflect the public project record and may not expose the exact timing of e
 - This static snapshot is not the Project Observatory. Live data, databases, and per-system maturity remain Observatory scope, gated until readiness **exceeds 50%**.
 - Added `docs/assets/site-data.js` as the static public-content source; preserved the existing preview image, Pages marker, and public Markdown documentation.
 - The explorer remains a **NON-CANON concept site** and a non-authoritative public presentation. No fictional canon was established or changed.
-- Public site: [Freeman’s Reach Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/). The v1.2 update is proposed in this pull request and awaits merge.
+- Public site: [Freeman’s Reach Public Web Explorer](https://jvholmes87.github.io/freemans-reach-systems-lab/). The v1.2 update is live in the public repository.
 
 ---
 
