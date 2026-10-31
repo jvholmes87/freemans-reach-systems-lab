@@ -6,6 +6,7 @@ Monthly reports provide a sanitized, non-authoritative record of meaningful publ
 
 ### 2026
 
+- [October 2026](2026/2026-10.md)
 - [September 2026](2026/2026-09.md)
 
 ## Standard Report Structure
@@ -27,4 +28,6 @@ A monthly report should include:
 - Reports do not create canon or approve working requirements.
 - Do not inflate progress to create a monthly change.
 - If no meaningful private progress occurred, report only justified repository or governance maintenance.
+- After publishing a report, synchronize `docs/assets/site-data.js`, repository navigation, and the public change log.
+- Record source verification separately from live-host verification.
 - Omit private links, internal identifiers when unnecessary, internal AI handoffs, manuscripts, spoilers, restricted research files, and sensitive information.
