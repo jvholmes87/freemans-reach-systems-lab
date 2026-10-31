@@ -426,9 +426,15 @@ Public transparency includes:
 - [`CHANGELOG.md`](CHANGELOG.md) — sanitized event-driven development history
 - [`ROADMAP.md`](ROADMAP.md) — dependency-aware Now / Next / Later priorities
 - [`docs/README.md`](docs/README.md) — documentation index
-- [`docs/updates/2026/2026-09.md`](docs/updates/2026/2026-09.md) — latest monthly development report
+- [`docs/updates/2026/2026-10.md`](docs/updates/2026/2026-10.md) — latest monthly development report
 - [`docs/updates/`](docs/updates/) — monthly report archive and format
 - [`docs/methodology/`](docs/methodology/) — public methods and governance explanations
+- [`docs/architecture/`](docs/architecture/) — public architecture decisions and navigation
+- [`docs/requirements/`](docs/requirements/) — public requirements and traceability
+- [`docs/trade-studies/`](docs/trade-studies/) — sanitized alternative analyses
+- [`docs/risk-and-reliability/`](docs/risk-and-reliability/) — public publication risks and controls
+- [`docs/verification/`](docs/verification/) — public verification baselines
+- [`docs/research/`](docs/research/) — public research and bibliography organization
 - [`templates/`](templates/) — reusable, non-canon systems-engineering and disclosure-control templates
 
 Public development records may increasingly use the pattern:
@@ -455,12 +461,26 @@ freemans-reach-systems-lab/
 │   │   ├── style.css
 │   │   ├── site-data.js
 │   │   └── preview.png
+│   ├── architecture/
+│   │   ├── README.md
+│   │   └── ADR-001-public-web-explorer-boundary.md
 │   ├── methodology/
 │   │   └── HUMAN_AI_DEVELOPMENT_METHOD.md
-│   └── updates/
-│       ├── README.md
-│       └── 2026/
-│           └── 2026-09.md
+│   ├── requirements/
+│   │   └── PUBLIC_WEB_EXPLORER_TRACEABILITY.md
+│   ├── research/
+│   │   └── README.md
+│   ├── risk-and-reliability/
+│   │   └── PUBLIC_WEB_EXPLORER_RISK_REGISTER.md
+│   ├── trade-studies/
+│   │   └── STATIC_SNAPSHOT_VS_OBSERVATORY.md
+│   ├── updates/
+│   │   ├── README.md
+│   │   └── 2026/
+│   │       ├── 2026-09.md
+│   │       └── 2026-10.md
+│   └── verification/
+│       └── PUBLIC_WEB_EXPLORER_V1.2_VERIFICATION_BASELINE.md
 └── templates/
     ├── README.md
     ├── PUBLIC_RELEASE_CHECKLIST.md
@@ -543,16 +563,18 @@ The current universe-readiness effort includes:
 
 ## Development Status Snapshot
 
-**As of 2026-09-30:**
+**As of 2026-10-31:**
 
 - **Universe Foundation → Book 1 Readiness:** 32.8%
-- **Change from the preceding public snapshot (2026-09-10, 27.8%):** +5.0 percentage points
-- **Change since the 2026-09-26 public update:** 0.0 percentage points; no progress was credited merely to close the month
+- **Change during October:** 0.0 percentage points; no work item earned completion credit and progress was not inflated for the monthly release
+- **Approved canon entries:** 16; no canon change was approved during October
+- **Unresolved questions:** 14, including one proposed resolution that remains unapproved
 - **Technology-domain roadmap:** complete as a non-canon architecture and control baseline
 - **Current roadmap scope:** 15 technology domains, a reconciled cross-domain dependency model, and five non-canon planning gates
-- **Spatial-data development:** an early, non-canon atlas proposal remains under controlled review; no public atlas or simulation has been released
-- **Next control step:** mature the founding-civilization, chronology, celestial-geography, education/knowledge-preservation, and sensing/navigation baselines before releasing detailed public system artifacts
-- **Monthly report:** [September 2026](docs/updates/2026/2026-09.md)
+- **Public Web Explorer:** live as a static, non-canon presentation of already-cleared repository information; it is not the Project Observatory
+- **Research and review:** environmental, historical-context, character, education/knowledge-preservation, and sensing/navigation work advanced without establishing new canon
+- **Next control step:** mature the environmental evidence, founding-civilization, chronology, celestial-geography, education/knowledge-preservation, and sensing/navigation baselines before releasing detailed public system artifacts
+- **Monthly report:** [October 2026](docs/updates/2026/2026-10.md)
 
 These figures describe internal development management, not manuscript completion, canon volume, or public-release readiness. Detailed records and approval authority remain in the private Google Drive repository.
 
