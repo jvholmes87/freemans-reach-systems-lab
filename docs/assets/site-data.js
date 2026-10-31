@@ -36,16 +36,17 @@ window.FR_SITE = {
   },
 
   status: {
-    asOf: '2026-09-30',
-    source: 'docs/updates/2026/2026-09.md; README.md — Development Status Snapshot',
-    reportHref: 'https://github.com/jvholmes87/freemans-reach-systems-lab/blob/main/docs/updates/2026/2026-09.md',
+    asOf: '2026-10-31',
+    source: 'docs/updates/2026/2026-10.md; README.md — Development Status Snapshot',
+    reportHref: 'https://github.com/jvholmes87/freemans-reach-systems-lab/blob/main/docs/updates/2026/2026-10.md',
     metric: 'Universe Foundation → Book 1 Readiness',
     value: 32.8,
     phase: 'Foundation and canon control',
     markers: [
       { value: 25.2, label: 'Prior baseline' },
       { value: 27.8, label: 'Sep 10' },
-      { value: 32.8, label: 'Sep 30' }
+      { value: 32.8, label: 'Sep 30' },
+      { value: 32.8, label: 'Oct 31' }
     ],
     gate: { value: 50, label: 'Project Observatory gate' },
     stats: [
@@ -53,7 +54,7 @@ window.FR_SITE = {
       { value: '2', label: 'Definition-level system baselines' },
       { value: '15', label: 'Technology domains mapped' },
       { value: '5', label: 'Readiness work items completed' },
-      { value: '11', label: 'Open or researching questions' }
+      { value: '14', label: 'Unresolved questions' }
     ],
     caption: 'The readiness measure is a project-management indicator. It is not manuscript completion, canon volume, technical validation, or public-release readiness.'
   },
@@ -65,7 +66,8 @@ window.FR_SITE = {
     { date: '2026-09-10', title: 'Drift audit passed', text: 'Technology-domain roadmap reached working review. Readiness 27.8%.' },
     { date: '2026-09-26', title: 'Readiness 32.8%', text: '+5.0 percentage points since the September 10 snapshot.' },
     { date: '2026-09-30', title: 'First monthly report', text: 'September report and reusable public systems-engineering templates published.' },
-    { date: '2026-10-06', title: 'Research review and public explorer', text: 'Astronomy, historical-context, and character research advanced to review stage. Public Web Explorer launched.' }
+    { date: '2026-10-06', title: 'Research review and public explorer', text: 'Astronomy, historical-context, and character research advanced to review stage. Public Web Explorer launched.' },
+    { date: '2026-10-31', title: 'October controlled update', text: 'Readiness remained 32.8%. Public architecture, traceability, risk, verification, and research-organization artifacts published.' }
   ],
 
   roadmap: {
