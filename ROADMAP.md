@@ -155,6 +155,17 @@ This structure is a planning model, not a promise that every directory or artifa
 
 ## Released
 
+### 2026-10
+
+- Public Web Explorer v1.1 and v1.2 — static, non-canon GitHub Pages presentation of already-cleared repository information
+- `docs/updates/2026/2026-10.md` — sanitized October development report
+- `docs/architecture/` — public architecture index and ADR for the static Explorer boundary
+- `docs/requirements/PUBLIC_WEB_EXPLORER_TRACEABILITY.md` — requirements-to-evidence baseline
+- `docs/trade-studies/STATIC_SNAPSHOT_VS_OBSERVATORY.md` — documented publication-architecture trade study
+- `docs/risk-and-reliability/PUBLIC_WEB_EXPLORER_RISK_REGISTER.md` — publication-layer risks and reliability controls
+- `docs/verification/PUBLIC_WEB_EXPLORER_V1.2_VERIFICATION_BASELINE.md` — repository-source verification baseline
+- `docs/research/README.md` — public research and bibliography organization standard
+
 ### 2026-09
 
 - `README.md` — public project orientation, methodology, codex, governance boundary, academic context, and repository scope
