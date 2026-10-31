@@ -38,6 +38,9 @@
 - [ ] The filename and path are stable and descriptive.
 - [ ] Navigation indexes and the README are updated when needed.
 - [ ] The public change log records the release when meaningful.
+- [ ] Structured site data matches the dated public report and cites a public repository source.
+- [ ] Requirements, risk, decision, and verification artifacts remain mutually traceable when applicable.
+- [ ] Source verification and live-host verification are recorded separately.
 - [ ] Links render correctly.
 - [ ] Placeholders, comments, and internal instructions were removed.
 - [ ] The artifact is understandable without access to private records.
@@ -50,5 +53,7 @@
 - **Decision:** Release / Release with limits / Hold
 - **Limitations or redactions:** 
 - **Related public commit or issue:** 
+- **Site-data/report synchronization checked:** Yes / No / Not applicable
+- **Live-host verification:** Pass / Exceptions recorded / Not performed
 
 If any failed item could expose private material, misstate canon, or overclaim evidence, hold the release.
